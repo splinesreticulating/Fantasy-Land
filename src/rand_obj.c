@@ -11,6 +11,12 @@
 #include "rand_obj.h"
 #include "recycle.h"
 
+/* rand_obj globals (defined here; declared extern in rand_obj.h) */
+RANDOM_DATA *prefix_table = NULL, *suffix_table = NULL;
+MOD_DATA *random_mod_free = NULL;
+int maxPrefix = 0, maxSuffix = 0;
+
+
 #define MAX_EXCEP_APPLY         12
 #define RANDOMS_FILE		"../data/info/randoms.dat"
 
