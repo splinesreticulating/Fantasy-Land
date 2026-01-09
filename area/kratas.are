@@ -487,7 +487,7 @@ human~
 -9 -10 -6 -10
 STANDING STANDING neutral 81
 88 warrior medium ABCDEFGHIJK
-P 103 0
+P 104 0
 S 'roundhouse' 0
 
 #31028
@@ -677,7 +677,7 @@ cat~
 -68 -70 -69 -89
 STANDING STANDING female 979
 80 warrior medium ACDEFHJKQUV
-P 47 1
+P 47 2
 S 'roundhouse' 0
 
 #31103
@@ -927,8 +927,8 @@ A huge breastplate made of fine steel is lying here.~
 armor 0 AD
 8 8 8 6 0
 20 21 1748
-A 20 0
 A 5 1
+A 20 0
 
 #31004
 pack sack rations~
@@ -971,8 +971,8 @@ An old shaggy brown robe lies here wrinkled up.~
 armor 0 AD
 12 11 11 11 0
 25 26 2877
-A 4 2
 A 20 -1
+A 4 2
 
 #31012
 long cloth clothed turban~
@@ -981,8 +981,8 @@ A huge piece of cloth wrapped into a turban lies here.~
 armor 0 AE
 8 6 9 6 0
 20 11 1742
-A 4 2
 A 18 5
+A 4 2
 
 #31014
 silver lance chrome~
@@ -1000,8 +1000,8 @@ A huge shield with a strange diamond emblem lies here.~
 armor 0 AJ
 24 18 17 22 0
 48 24 5873
-A 13 35
 A 18 5
+A 13 35
 
 #31016
 knight helmet~
@@ -1010,8 +1010,8 @@ A helmet of a royal knight lies here.~
 armor B AE
 18 18 18 18 0
 48 20 5122
-A 18 14
 A 5 -2
+A 18 14
 
 #31017
 black sash pockets~
@@ -1020,8 +1020,8 @@ A long black sash with several pockets lies here.~
 container BY AL
 700 0 0 10 25
 45 21 4888
-A 17 -14
 A 2 1
+A 17 -14
 
 #31018
 pair ice boots~
@@ -1030,8 +1030,8 @@ A soggy wet pair of ice-filled boots lies here.~
 armor 0 AG
 13 14 13 12 0
 35 36 3857
-A 20 -1
 A 19 2
+A 20 -1
 
 #31019
 gold coins~
@@ -1057,8 +1057,8 @@ A small sparkling bracer lies here with a golden aura about it.~
 armor A AM
 15 22 15 17 0
 45 71 6845
-A 18 8
 A 19 7
+A 18 8
 
 #31022
 black eyepatch~
@@ -1067,9 +1067,9 @@ A small black eyepatch lies here for you to wear.~
 armor 0 AR
 15 22 20 18 0
 45 2 4777
-A 14 -20
-A 5 2
 A 19 5
+A 5 2
+A 14 -20
 
 #31023
 wooden leg~
@@ -1078,8 +1078,8 @@ A small leg used to stick your leg in lies here.~
 armor M AF
 19 15 16 17 0
 45 10 4888
-A 14 -50
 A 18 10
+A 14 -50
 
 #31024
 elven ring~
@@ -1088,8 +1088,8 @@ A strange shiny ring made of elven lore lies here.~
 armor AY AB
 14 13 14 13 0
 40 4 4854
-A 13 30
 A 14 50
+A 13 30
 
 #31025
 dwarven axe~
@@ -1172,8 +1172,8 @@ A pair of sandals with ankle-strapped laces lies here.~
 armor 0 AG
 15 15 15 14 0
 40 41 4444
-A 14 30
 A 5 1
+A 14 30
 
 #31037
 pair steel gauntlets~
@@ -1182,8 +1182,8 @@ A large pair of steel gauntlets lies here.~
 armor 0 AH
 15 15 15 13 0
 40 41 4245
-A 20 -1
 A 2 1
+A 20 -1
 
 #31038
 pair chained gauntlets~
@@ -1192,8 +1192,8 @@ A huge pair of chained gauntlets lies here.~
 armor 0 AH
 23 16 18 17 0
 50 51 5243
-A 19 2
 A 18 1
+A 19 2
 
 #31039
 belt golden buckle~
@@ -1202,8 +1202,8 @@ A large belt with a golden buckle lies here.~
 armor 0 AL
 22 22 25 21 0
 60 61 6444
-A 18 4
 A 19 4
+A 18 4
 
 #31040
 leather uniform vest~
@@ -1212,9 +1212,9 @@ A long leather uniform lies here unworn and partially torn.~
 armor 0 AD
 22 30 22 20 0
 60 61 6343
-A 18 4
-A 19 2
 A 13 45
+A 19 2
+A 18 4
 
 #31041
 plastic pair hands~
@@ -1223,8 +1223,8 @@ An unused pair of plastic hands lies here for you to wield.~
 weapon 0 AN
 exotic 10 11 smash 0
 75 36 2240
-A 19 2
 A 18 2
+A 19 2
 
 #31042
 long staff beating quarterstaff~
@@ -1233,10 +1233,10 @@ A huge well-carved staff is lying here.~
 weapon 0 AN
 exotic 8 8 beating 0
 55 56 3280
-A 20 -2
-A 1 2
-A 19 4
 A 18 4
+A 19 4
+A 1 2
+A 20 -2
 
 #31044
 golden machete~
@@ -1245,8 +1245,8 @@ A huge golden machete is lying here glowing.~
 weapon 0 AN
 flail 10 11 cleave 0
 75 76 4220
-A 19 6
 A 18 6
+A 19 6
 
 #31045
 silver chain medallion~
@@ -1264,8 +1264,8 @@ An illuminating opal ring lies here shimmering brightly.~
 jewelry A AB
 0 0 0 0 0
 30 17 2122
-A 20 -1
 A 14 110
+A 20 -1
 
 #31047
 golden wristlet~
@@ -1274,8 +1274,8 @@ A shiny golden wristlet lies here.~
 jewelry 0 AM
 0 0 0 0 0
 50 25 2555
-A 19 20
 A 12 100
+A 19 20
 
 #31048
 pool water~
@@ -1300,8 +1300,8 @@ A heavy suit of plate armor lies here.~
 armor AY AK
 8 8 8 7 0
 45 20 4888
-A 18 4
 A 19 5
+A 18 4
 
 #31072
 metallic skirt~
@@ -1310,8 +1310,8 @@ A wide double-layered skirt of silver lies here.~
 armor Y AF
 8 8 8 7 0
 45 21 4877
-A 20 -1
 A 1 1
+A 20 -1
 
 #31073
 suit chain mail armor~
@@ -1320,8 +1320,8 @@ A large suit of armor made of chains lies here jingling.~
 armor 0 AD
 12 12 12 11 0
 50 23 5823
-A 20 -1
 A 13 25
+A 20 -1
 
 #31074
 crystal crystalized portal~
@@ -1362,9 +1362,9 @@ A long curved claymore made from Kratasian hands lies here.~
 weapon 0 AN
 exotic 5 5 slash 0
 1 2 140
-A 18 0
-A 13 3
 A 19 0
+A 13 3
+A 18 0
 
 #31079
 kratasian halberd polearm~
@@ -1389,9 +1389,9 @@ A huge mace lies here unused.~
 weapon 0 AN
 mace 6 6 crush F
 15 10 1777
-A 13 25
-A 18 1
 A 19 1
+A 18 1
+A 13 25
 
 #31082
 kratasian dagger~
@@ -1424,8 +1424,8 @@ A pair of plastic fists made by Kratasians lie here untouched.~
 weapon 0 AN
 exotic 5 5 beating 0
 1 2 140
-A 19 0
 A 18 0
+A 19 0
 
 #31086
 piece bread~
@@ -1506,8 +1506,8 @@ A spear with a strange slime on its sharp tip lies here.~
 weapon M AN
 spear 14 14 injection DH
 101 75 3500
-A 18 30
 A 19 32
+A 18 30
 E
 map nix humus~
 MAP OF Nix Humus
@@ -1531,12 +1531,12 @@ A long pair of boots worn over the ankles lies here covered with snow.~
 armor 0 AG
 27 26 27 24 0
 80 80 16545
-A 18 25
-A 14 200
-A 12 175
-A 13 -35
-A 19 20
 A 2 3
+A 19 20
+A 13 -35
+A 12 175
+A 14 200
+A 18 25
 E
 map hospitus tellus~
 MAP OF HOSPITUS TELLUS

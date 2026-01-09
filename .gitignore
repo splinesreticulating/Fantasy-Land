@@ -17,9 +17,4 @@ data/
 *.bak
 *.bak2
 
-# Area files (assume these are runtime modified for now, unless user says otherwise)
-# Actually, I'll not ignore area files in gitignore, but I just won't add them right now.
-# But git status will show them as modified.
-# If I put them in gitignore, git will ignore the changes to tracked files? No, gitignore only affects untracked files.
-# To ignore changes to tracked files, I'd need 'git update-index --assume-unchanged'.
-# For now, I just won't 'git add' them.
+

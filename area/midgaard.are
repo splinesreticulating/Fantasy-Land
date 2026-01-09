@@ -755,7 +755,7 @@ C TUZ BH 1000 3000
 -159 -195 -153 -182
 STANDING STANDING random 2253
 67 warrior medium ABCDEFGHIJK
-P 214 34
+P 214 35
 S 'roundhouse' 0
 
 #3061
@@ -771,7 +771,7 @@ CGH 0 0 900 0
 -5 -5 -3 -5
 STANDING STANDING random 53
 62 warrior medium ABCDEFGHIJK
-P 1146 6
+P 1147 6
 S 'roundhouse' 0
 
 #3062
@@ -789,7 +789,7 @@ GHU DFZ 0 0 0
 -5 -4 -3 -4
 STANDING STANDING random 57
 62 warrior small ABCDEFGHIJK
-P 666 0
+P 668 0
 S 'roundhouse' 0
 
 #3063
@@ -823,7 +823,7 @@ CGH IYd 0 400 0
 -3 -5 -5 -3
 STANDING STANDING male 48
 62 warrior medium ABCDEFGHIJK
-P 959 6
+P 962 6
 S 'roundhouse' 0
 
 #3065
@@ -1905,7 +1905,7 @@ BDST DFJTUZ BH 0 0
 -528 -668 -737 -722
 STANDING STANDING neutral 6528
 100 bishop medium 0
-P 31 10
+P 31 11
 S 'roundhouse' 0
 M GRALL 3207 100~
 
@@ -1982,7 +1982,7 @@ C 0 0 900 0
 -4 -3 -5 -3
 STANDING STANDING male 57
 0 warrior medium ABCDEFGHIJK
-P 24 0
+P 25 0
 
 #3223
 rat~

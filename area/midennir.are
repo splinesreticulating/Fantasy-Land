@@ -194,7 +194,7 @@ C 0 0 100 0
 -3 -4 -5 -3
 STANDING STANDING neutral 55
 0 mage medium ABCDEFGHIJKPQU
-P 27 0
+P 28 0
 
 #3526
 brown snake~
@@ -209,7 +209,7 @@ CF 0 0 -300 0
 -4 -4 -4 -3
 STANDING STANDING neutral 44
 0 mage medium ADEFKLQVX
-P 31 0
+P 32 0
 
 #3527
 red fox~
@@ -224,7 +224,7 @@ C 0 0 0 0
 -3 -4 -5 -5
 STANDING STANDING neutral 58
 0 mage medium ACDEFHJKQV
-P 13 0
+P 14 0
 
 #3528
 merchant man~
@@ -239,7 +239,7 @@ C 0 0 -100 0
 -3 -4 -4 -3
 STANDING STANDING neutral 54
 0 mage medium ABCDEFGHIJK
-P 13 0
+P 14 0
 
 #3588
 no name~
@@ -1250,11 +1250,6 @@ The front door of the inn beckons.
 ~
 0 0 3574
 E
-sign~
-The sign reads:
-   The Woodsman
-~
-E
 credits credit author~
 +-------------------------------------------------+
 | This zone originally written for Copper II DIKU |
@@ -1262,6 +1257,11 @@ credits credit author~
 | Modification and alterations for MERCmud DIKU   |
 |   by VampLestat                        1 JAN 93 |
 +-------------------------------------------------+
+~
+E
+sign~
+The sign reads:
+   The Woodsman
 ~
 S
 

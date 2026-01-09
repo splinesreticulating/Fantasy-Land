@@ -58,7 +58,7 @@ B 0 0 0 0
 100 100 100 100
 STANDING STANDING neutral 10
 64 warrior medium ABCDEFHJKQU
-P 3442 16
+P 3446 16
 S 'roundhouse' 0
 
 #3703
@@ -76,7 +76,7 @@ BHU 0 0 0 0
 100 100 100 100
 STANDING STANDING neutral 10
 64 warrior medium ABCDEFHJKQU
-P 1531 0
+P 1533 0
 S 'roundhouse' 0
 
 #3704
@@ -94,7 +94,7 @@ B 0 0 0 0
 100 100 100 100
 STANDING STANDING neutral 10
 64 warrior medium ABCDEFHJKQU
-P 3337 1
+P 3341 1
 S 'roundhouse' 0
 
 #3705
@@ -112,7 +112,7 @@ BHU 0 0 0 0
 100 100 100 100
 STANDING STANDING neutral 10
 64 warrior medium ABCDEFHJKQU
-P 1555 13
+P 1557 13
 S 'roundhouse' 0
 
 #3706
@@ -130,7 +130,7 @@ BU JZ 0 0 0
 80 80 80 100
 STANDING STANDING neutral 25
 64 warrior medium ABCDEFHJKQU
-P 919 3
+P 920 3
 S 'roundhouse' 0
 
 #3707
@@ -181,7 +181,7 @@ GHU 0 0 100 0
 STANDING STANDING random 45
 64 warrior tiny ACDEFHJK
 E 4
-P 7116 8
+P 7117 8
 S 'roundhouse' 0
 
 #3710
@@ -198,7 +198,7 @@ GU 0 0 -100 0
 -5 -3 -3 -4
 STANDING STANDING random 49
 64 warrior small ACDEFHKQV
-P 4150 11
+P 4151 11
 S 'roundhouse' 0
 
 #3711
@@ -366,7 +366,7 @@ BU J 0 0 0
 80 80 80 100
 STANDING STANDING neutral 30
 68 warrior medium ABCDEFHJKQU
-P 777 6
+P 778 6
 S 'roundhouse' 0
 
 #3721
@@ -382,7 +382,7 @@ B 0 0 0 0
 0 0 0 0
 STANDING STANDING neutral 0
 67 warrior medium ABCDEFGHIJK
-P 2873 76
+P 2877 76
 S 'roundhouse' 0
 
 #3722
@@ -398,7 +398,7 @@ B 0 0 0 0
 0 0 0 0
 STANDING STANDING neutral 0
 62 warrior medium ABCDEFGHIJK
-P 1345 1
+P 1346 1
 S 'roundhouse' 0
 
 #3723
@@ -414,7 +414,7 @@ B 0 0 0 0
 0 0 0 0
 STANDING STANDING neutral 0
 67 warrior medium ABCDEFGHIJK
-P 1201 13
+P 1203 13
 S 'roundhouse' 0
 
 #3724
@@ -430,7 +430,7 @@ B 0 0 0 0
 0 0 0 0
 STANDING STANDING neutral 0
 66 ranger medium ABCDEFGHIJK
-P 1231 51
+P 1233 51
 S 'roundhouse' 0
 
 #3725
@@ -446,7 +446,7 @@ B 0 0 0 0
 0 0 0 0
 STANDING STANDING neutral 0
 68 thief medium ABCDEFGHIJK
-P 999 20
+P 1000 20
 S 'roundhouse' 0
 
 #3726

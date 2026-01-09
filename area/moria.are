@@ -21,7 +21,7 @@ BF D 0 -200 0
 -8 -7 -6 -6
 STANDING STANDING random 120
 68 warrior large ADEFKLQVX
-P 24 0
+P 25 0
 S 'roundhouse' 0
 
 #4001
@@ -38,7 +38,7 @@ BU 0 0 -100 0
 -3 -4 -4 -4
 STANDING STANDING random 47
 66 warrior small ADEFKLQVX
-P 31 0
+P 33 0
 S 'roundhouse' 0
 
 #4002
@@ -55,7 +55,7 @@ BU Z 0 100 0
 -3 -5 -3 -3
 STANDING STANDING neutral 48
 65 warrior tiny ACK
-P 28 0
+P 29 0
 S 'roundhouse' 0
 
 #4003
@@ -72,7 +72,7 @@ CG J 0 -100 0
 -3 -3 -5 -4
 STANDING STANDING random 54
 65 warrior small ABCDEFGHIJKQ
-P 82 1
+P 83 1
 S 'roundhouse' 0
 
 #4004
@@ -89,7 +89,7 @@ CFG JVc 0 -400 0
 -5 -5 -3 -3
 STANDING STANDING male 43
 66 warrior medium ABCDEFGHIJK
-P 101 2
+P 104 2
 S 'roundhouse' 0
 
 #4005
@@ -141,7 +141,7 @@ CF 0 0 -400 0
 -57 -64 -48 -43
 STANDING STANDING male 818
 66 warrior medium ABCDEFGHIJK
-P 23 0
+P 25 0
 S 'roundhouse' 0
 
 #4052
@@ -160,7 +160,7 @@ CGH J 0 -300 0
 -26 -32 -29 -32
 STANDING STANDING male 337
 66 warrior medium ABCDEFGHIJKY
-P 9 0
+P 10 0
 S 'roundhouse' 0
 
 #4053
@@ -723,8 +723,8 @@ A beautifully crafted dirk is lying here.~
 weapon G AN
 dagger 6 6 stab 0
 15 20 590
-A 18 1
 A 19 1
+A 18 1
 E
 dirk~
 It's a medium sized, beautifully crafted dirk made from grey alloy.
@@ -764,8 +764,8 @@ A flail with two heavy, spiked heads is here.~
 weapon 0 AN
 flail 5 5 smash 0
 5 70 290
-A 19 2
 A 17 1
+A 19 2
 E
 flail~
 It's a stout wooden rod with two spiked balls attached, each weighing over 2
@@ -831,8 +831,8 @@ Some gloves are here.  They look like the right equipment for fighting.~
 armor G AH
 1 3 3 1 1
 13 10 730
-A 18 1
 A 19 1
+A 18 1
 
 #4102
 scroll ysafg~
@@ -904,12 +904,12 @@ staff G AO
 25 10 5400
 A 12 -20
 E
-staff oak~
-You see it has some sort of runes on it.
-~
-E
 runes~
 The runes says : Funthark.
+~
+E
+staff oak~
+You see it has some sort of runes on it.
 ~
 
 #4152
@@ -919,8 +919,8 @@ A light silver dagger is here.~
 weapon 0 AN
 dagger 6 6 stab 0
 13 20 660
-A 18 1
 A 17 -1
+A 18 1
 E
 dagger light silver~
 It looks like an excellent weapon for thieves.
@@ -933,8 +933,8 @@ A heavy, spiked morning star is here.~
 weapon 0 AN
 mace 7 6 smash 0
 17 120 270
-A 19 1
 A 2 -1
+A 19 1
 E
 star morning~
 It's a huge length of wood studded with iron spikes and bands. You wouldn't
@@ -2080,10 +2080,6 @@ D2
 ~
 0 0 4001
 E
-bushes~
-Small crippled bushes desperately trying to grow south.
-~
-E
 sign~
 The sign says:
 
@@ -2100,6 +2096,10 @@ The sign says:
                  | |
                  | |
                  | |
+~
+E
+bushes~
+Small crippled bushes desperately trying to grow south.
 ~
 S
 
