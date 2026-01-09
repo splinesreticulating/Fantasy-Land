@@ -2793,8 +2793,8 @@ CLAN_COMMAND( flag_exit )
 	return FALSE;
     }
 
-    if ( exit_flag_table[pos].restrict
-    &&   !IS_SET( ch->in_room->exit[door]->rs_flags, exit_flag_table[pos].restrict ) )
+    if ( exit_flag_table[pos].restrict_flags
+    &&   !IS_SET( ch->in_room->exit[door]->rs_flags, exit_flag_table[pos].restrict_flags ) )
     {
 	send_to_char( "That exit is missing the requirement flag.\n\r", ch );
 	return FALSE;
@@ -2861,7 +2861,7 @@ CLAN_COMMAND( flag_guard )
 	return FALSE;
     }
 
-    if ( IS_SET( bits, mob_flag_table[pos].restrict ) )
+    if ( IS_SET( bits, mob_flag_table[pos].restrict_flags ) )
     {
 	send_to_char( "Mobile has restricted flag on, can not have both flags.\n\r", ch );
 	return FALSE;
@@ -2929,7 +2929,7 @@ CLAN_COMMAND( flag_object )
 	return FALSE;
     }
 
-    if ( IS_SET( bits, obj_flag_table[pos].restrict ) )
+    if ( IS_SET( bits, obj_flag_table[pos].restrict_flags ) )
     {
 	send_to_char( "Object has restricted flag on, can not have both flags.\n\r", ch );
 	return FALSE;
@@ -2970,7 +2970,7 @@ CLAN_COMMAND( flag_room )
 	return FALSE;
     }
 
-    if ( IS_SET( ch->in_room->room_flags, room_flag_table[pos].restrict ) )
+    if ( IS_SET( ch->in_room->room_flags, room_flag_table[pos].restrict_flags ) )
     {
 	send_to_char( "Room has restricted flag on, can not have both flags.\n\r", ch );
 	return FALSE;
@@ -3186,7 +3186,7 @@ CLAN_COMMAND( list_exit_flag )
 	    exit_flag_table[pos].cost_cubic,
 	    exit_flag_table[pos].cost_aquest,
 	    exit_flag_table[pos].cost_iquest,
-	    flag_string( exit_flags, exit_flag_table[pos].restrict ) );
+	    flag_string( exit_flags, exit_flag_table[pos].restrict_flags ) );
 	add_buf( final, buf );
     }
 
@@ -3251,7 +3251,7 @@ CLAN_COMMAND( list_mflag )
 	    mob_flag_table[pos].cost_aquest,
 	    mob_flag_table[pos].cost_iquest,
 	    flag_string( mob_flag_table[pos].where == TO_AFFECTS ? affect_flags :
-		mob_flag_table[pos].where == TO_SHIELDS ? shield_flags : act_flags, mob_flag_table[pos].restrict ) );
+		mob_flag_table[pos].where == TO_SHIELDS ? shield_flags : act_flags, mob_flag_table[pos].restrict_flags ) );
 	add_buf( final, buf );
     }
 
@@ -3430,7 +3430,7 @@ CLAN_COMMAND( list_oflag )
 	    obj_flag_table[pos].cost_cubic,
 	    obj_flag_table[pos].cost_aquest,
 	    obj_flag_table[pos].cost_iquest,
-	    flag_string( obj_flag_table[pos].where == TO_OBJECT ? extra_flags : weapon_type2, obj_flag_table[pos].restrict ) );
+	    flag_string( obj_flag_table[pos].where == TO_OBJECT ? extra_flags : weapon_type2, obj_flag_table[pos].restrict_flags ) );
 	add_buf( final, buf );
     }
 
@@ -3457,7 +3457,7 @@ CLAN_COMMAND( list_rflag )
 	    room_flag_table[pos].cost_cubic,
 	    room_flag_table[pos].cost_aquest,
 	    room_flag_table[pos].cost_iquest,
-	    flag_string( room_flags, room_flag_table[pos].restrict ) );
+	    flag_string( room_flags, room_flag_table[pos].restrict_flags ) );
 	add_buf( final, buf );
     }
 

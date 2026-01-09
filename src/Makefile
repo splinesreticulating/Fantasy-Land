@@ -22,7 +22,7 @@ rot: $(O_FILES)
 
 clean:
 	rm -f *.o
-	make
+	# make
 
 copy:
 	cp -f rot ../area/

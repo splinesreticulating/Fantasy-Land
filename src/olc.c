@@ -3383,7 +3383,7 @@ void do_alist( CHAR_DATA *ch, char *argument )
 {
     AREA_DATA *pArea;
     BUFFER *final = new_buf();
-    bool restrict = FALSE;
+    bool restrict_only = FALSE;
     char buf[MAX_STRING_LENGTH];
     bool fLinked = FALSE;
     sh_int total = 0, matches = 0;
@@ -3395,7 +3395,7 @@ void do_alist( CHAR_DATA *ch, char *argument )
 	    vnum = atoi( argument );
 	else if ( !str_cmp( argument, "linked" ) )
 	    fLinked = TRUE;
-	restrict = TRUE;
+	restrict_only = TRUE;
     }
 
     sprintf( buf, "{w[{c%3s{w] [{B%-26s{w] ({W%s{w-{W%s{w) [{c%-13s{w] {g%3s {w[{GFlags{w]\n\r",
@@ -3406,9 +3406,9 @@ void do_alist( CHAR_DATA *ch, char *argument )
     {
 	total++;
 
-	if ( ( restrict && vnum == 0 && !fLinked
+	if ( ( restrict_only && vnum == 0 && !fLinked
 	&&     !is_name( argument, strip_color( pArea->name ) ) )
-	||   ( restrict && vnum != 0
+	||   ( restrict_only && vnum != 0
 	&&     ( pArea->min_vnum > vnum || pArea->max_vnum < vnum ) )
 	||   ( fLinked && IS_SET( pArea->area_flags, AREA_UNLINKED ) ) )
 	    continue;

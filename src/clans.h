@@ -41,7 +41,7 @@ struct clan_flag_type
     sh_int	cost_iquest;
     sh_int	where;
     long	bit;
-    long	restrict;
+    long restrict_flags;
 };
 
 struct obj_apply_type

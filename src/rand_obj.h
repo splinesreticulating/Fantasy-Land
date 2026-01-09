@@ -1,11 +1,8 @@
 typedef struct	random_mod	MOD_DATA;
 typedef struct	randoms_data	RANDOM_DATA;
-
-RANDOM_DATA *prefix_table, *suffix_table;
-MOD_DATA *random_mod_free;
-
-int maxPrefix, maxSuffix;
-
+extern RANDOM_DATA *prefix_table, *suffix_table;
+extern MOD_DATA *random_mod_free;
+extern int maxPrefix, maxSuffix;
 struct excep_apply_data
 {
     sh_int	apply_type;

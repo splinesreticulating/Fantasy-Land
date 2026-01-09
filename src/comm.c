@@ -89,7 +89,7 @@ const	char	compress_dont	[] = { IAC, DONT, TELOPT_COMPRESS2, '\0' };
 
 #if	defined(linux)
 int	close		args( ( int fd ) );
-int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
+//int	gettimeofday	args( ( struct timeval *tp, struct timezone *tzp ) );
 int	select		args( ( int width, fd_set *readfds, fd_set *writefds,
 			    fd_set *exceptfds, struct timeval *timeout ) );
 #endif
@@ -104,10 +104,6 @@ char		    str_boot_time[128];
 time_t		    current_time;	/* time of this pulse */	
 char		    clcode[ MAX_INPUT_LENGTH ];
 bool		    MOBtrigger = TRUE;  /* act() switch                 */
-long                nAllocString;
-long                sAllocString;
-long                nAllocPerm;
-long                sAllocPerm;
 int		    port;
 int		    control;
 sh_int		    auction_ticket;
